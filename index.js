@@ -1,29 +1,29 @@
-const pizzas=[ Fugazzeta= {
+const pizzas=[{
     id: 1,
     nombre:'Fugazzeta',
     ingredientes: ['cebolla', 'muzzarella'],
     precio: 500,
-}, Calabresa= {
+},{
     id: 2,
     nombre:'Calabresa',
     ingredientes: ['longaniza', 'muzzarella'],
     precio: 800,
-}, Napolitana= {
+},{
     id: 3,
     nombre:'Napolitana',
     ingredientes: ['tomate','aceite de oliva','ajo','muzzarella'],
     precio: 700,
-}, Especial= {
+},{
     id: 4,
     nombre:'Especial',
     ingredientes: ['jamon','morron','muzzarella'],
     precio: 800,
-}, Muzzarella= {
+},{
     id: 5,
     nombre:'Muzzarella',
     ingredientes: ['muzzarella','aceitunas'],
     precio: 600,
-}, Huevo= {
+},{
     id: 6,
     nombre:'con Huevo duro',
     ingredientes: ['huevo','muzzarella'],
@@ -70,15 +70,3 @@ console.log(`Los precios de cada pizza son ${precioPizzas.toString()}.`);
 const tipoPizza = pizzas.forEach(pizza =>{
     console.log(`La pizza ${pizza.nombre} cuesta ${pizza.precio} pesos.`)
 });
-
-
-
-
-/*const titulo1= pizzas.filter((pizza)=> pizza.id==1);
-const printNombre1=titulo1.map((pizza)=>{
-    return pizza.nombre 
-});
-const printPrecio1=titulo1.map((pizza)=>{
-    return pizza.precio 
-});
-console.log(`La pizza ${printNombre1.toString()} cuesta ${printPrecio1.toString()} pesos.`);*/
